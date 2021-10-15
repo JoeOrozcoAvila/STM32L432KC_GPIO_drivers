@@ -160,7 +160,6 @@ typedef struct
 #define GPIOH							((GPIO_RegDef_t*)GPIOH_BASEADDR)
 
 #define RCC								((RCC_RegDef_t*)RCC_BASEADDR)
-#define GPIOB_RCC						(RCC + 0x004C)
 /*
  * Clock enable macros for GPIOx Peripherals
  * */
